@@ -76,7 +76,7 @@
       <file leaf-file-name="Algoritmo3.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/ufg/inf/es/construcao/algoritmo3/Algoritmo3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="4" selection-start="566" selection-end="566" vertical-scroll-proportion="0.7552083" vertical-offset="0" max-vertical-offset="576">
+            <state line="15" column="44" selection-start="349" selection-end="349" vertical-scroll-proportion="0.390625" vertical-offset="0" max-vertical-offset="576">
               <folding />
             </state>
           </provider>
@@ -519,12 +519,12 @@
       <changelist id="42166fce-b2d0-43f0-b07c-829eb5fe0c14" name="Default" comment="" />
       <created>1446158661912</created>
       <updated>1446158661912</updated>
-      <workItem from="1446158663077" duration="2312000" />
+      <workItem from="1446158663077" duration="2915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2312000" />
+    <option name="totallyTimeSpent" value="2915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="984" y="0" width="936" height="1000" extended-state="0" />
@@ -550,7 +550,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -597,7 +597,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/ufg/inf/es/construcao/algoritmo3/Algoritmo3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="4" selection-start="566" selection-end="566" vertical-scroll-proportion="0.7552083" vertical-offset="0" max-vertical-offset="576">
+        <state line="15" column="44" selection-start="349" selection-end="349" vertical-scroll-proportion="0.390625" vertical-offset="0" max-vertical-offset="576">
           <folding />
         </state>
       </provider>

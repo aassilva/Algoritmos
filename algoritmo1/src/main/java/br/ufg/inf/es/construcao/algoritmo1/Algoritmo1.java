@@ -7,14 +7,14 @@ package br.ufg.inf.es.construcao.algoritmo1;
 public class Algoritmo1 {
 
     /**
-     * Implementação do dia da semana.
-     * @param d entrada dia.
-     * @param m entrada mês.
-     * @param a entrada ano.
-     * @throws d menor que 1 ou maoir que 31.
-     * @throws m menor que 1 ou maior que 12.
-     * @throws a menor que 1753.
-     * @return saída o dia da semana. 0 para Segunda-feira; 1 para Terça-Feira; ...; 6 para Domingo.
+     * Serviço que identifica o dia da semana da data fornecida.
+     * @param d dia do mês.
+     * @param m mês do ano.
+     * @param a  ano.
+     * @throws java.lang.IllegalArgumentException se n menor que 1 ou maoir que 31.
+     * @throws java.lang.IllegalArgumentException se m menor que 1 ou maior que 12.
+     * @throws java.lang.IllegalArgumentException se a menor que 1753.
+     * @return 0 para segunda-feira; 1 para terça-feira; ...; 6 para domingo.
      */
 
     public static int diaSemana(int d, int m, int a) {

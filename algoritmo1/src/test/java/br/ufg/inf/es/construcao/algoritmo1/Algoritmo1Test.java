@@ -40,6 +40,9 @@ public class Algoritmo1Test {
         Algoritmo1.diaSemana(32, 14, 1500);
     }
 
+    /**
+     * Valores obtidos do calendário do Linux.
+     */
     @Test
     public void testCasoTrivial() {
         Assert.assertEquals(3, Algoritmo1.diaSemana(29, 10, 2015));
