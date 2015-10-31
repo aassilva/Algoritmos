@@ -53,7 +53,6 @@ public class Algoritmo1Test {
         Assert.assertEquals(5, Algoritmo1.diaSemana(25, 9, 1999));
         Assert.assertEquals(0, Algoritmo1.diaSemana(1, 1, 1753));
         Assert.assertEquals(0, Algoritmo1.diaSemana(19, 5, 3253));
-
     }
 
 }
