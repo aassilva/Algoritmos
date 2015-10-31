@@ -8,8 +8,8 @@ public class Algoritmo3 {
 
     /**
      * Soma dos números naturais.
-     * @param n entrada número inteiro.
-     * @throws n menor que 1.
+     * @param n número inteiro.
+     * @throws IllegalArgumentException para n menor que 1.
      * @return Soma dos numeros naturais até n.
      */
 
