@@ -7,9 +7,9 @@ package br.ufg.inf.es.construcao.algoritmo2;
 public class Algoritmo2 {
 
     /**
-     * Verifica se um número é par.
-     * @param n  entrada de um número inteiro.
-     * @return saída true para par e false para impar.
+     * Serviço que verifica se um número é par.
+     * @param n um número inteiro.
+     * @return true para par e false para impar.
      */
 
     public static boolean paridade (int n) {
