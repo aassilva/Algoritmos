@@ -11,11 +11,6 @@ public class Algoritmo9Test {
     }
 
     @Test
-    public void testCasoDeFronteira() {
-        Assert.assertFalse(Algoritmo9.primo(2));
-    }
-
-    @Test
     public void testCasoTrivial() {
         Assert.assertTrue(Algoritmo9.primo(23));
         Assert.assertTrue(Algoritmo9.primo(3));
