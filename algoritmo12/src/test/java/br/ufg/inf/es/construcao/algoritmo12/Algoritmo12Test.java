@@ -33,8 +33,7 @@ public class Algoritmo12Test {
 
     @Test
     public void testCasoTrivial() {
-        Assert.assertEquals(1, Algoritmo12.mdc2(3, 1));
-        Assert.assertEquals(91, Algoritmo12.mdc2(2275, 1638));
+        Assert.assertEquals(5, Algoritmo12.mdc2(25, 15));
         Assert.assertEquals(8, Algoritmo12.mdc2(24, 16));
         Assert.assertEquals(32, Algoritmo12.mdc2(416, 352));
         Assert.assertEquals(3, Algoritmo12.mdc2(9, 3));

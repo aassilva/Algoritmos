@@ -15,16 +15,16 @@ public class Algoritmo12 {
      */
 
     public static int mdc2(int a, int b) {
-        if (a < b && b < 1) {
+        if (a < b || b < 1) {
             throw new IllegalArgumentException("a ou b invalido");
         }
 
         while (a != b) {
             if (a > b) {
                 a = a - b;
+            } else {
+                b = b - a;
             }
-
-            b = b - a;
         }
 
         return a;
