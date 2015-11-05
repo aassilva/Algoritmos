@@ -15,7 +15,7 @@ public class Algoritmo11 {
      */
 
     public static int mdc(int a, int b) {
-        if (a < b && b < 1) {
+        if (a < b || b < 1) {
             throw new IllegalArgumentException("a ou b invalido");
         }
 
