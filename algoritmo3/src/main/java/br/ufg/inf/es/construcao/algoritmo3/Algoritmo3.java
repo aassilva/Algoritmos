@@ -27,4 +27,3 @@ public class Algoritmo3 {
         return s;
     }
 }
-git 
