@@ -1,2 +1,2 @@
 # AvaliacaoConstrucao
-[<img src="https://travis-ci.org/antlisufg/AvaliacaoConstrucao.svg">
+<img src="https://travis-ci.org/antlisufg/AvaliacaoConstrucao.svg">
