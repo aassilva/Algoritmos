@@ -1,14 +1,12 @@
-package br.ufg.inf.es.construcao.algoritmo33;
-
 /**
  * Classe que implementa o cpf.
  */
 
-public class Algoritmo33 {
+public class Algoritmo34 {
 
     /**
-     * Serviço que verifica a validade do cpf.
-     * @param d vetor com númeor do cpf.
+     * ServiÃ§o que verifica a validade do cpf.
+     * @param d vetor com nÃºmeor do cpf.
      * @throws IllegalArgumentException para a.length maior que 11 ou menor que 11.
      * @return True se cpf valido e False pra cpf invalido.
      */
@@ -18,16 +16,18 @@ public class Algoritmo33 {
             throw new IllegalArgumentException("d invalido");
         }
 
-        int sj = 0;
-        int sk = 0;
-        for (int i = 1; i <= 9; i++) {
-            sj = sj + i * d[i];
-            sk = sk + i * d[i + 1];
+        int c = 8;
+        int p = d[9];
+        int s = d[9];
+        while (c >= 1) {
+            p = p + d[c];
+            s = s + p;
+            c = c - 1;
         }
 
-        int j = ((sj % 11) % 10);
-        int k = ((sk % 11) % 10);
+        int j = ((s % 11) % 10);
+        int k = (((s - p + (9 * j)) % 11) % 10);
 
-        return (j == d[10] && k == d[11]);
+        return (j == d [10] && k == d[11]);
     }
 }
